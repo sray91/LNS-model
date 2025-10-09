@@ -18,10 +18,10 @@ const screens = [
     title: "The Crisis",
     type: "story",
     content: {
-      headline: "Imagine you're a division leader at Georgia Pacific...",
+      headline: "Imagine you're a division leader at a major manufacturer of consumer goods...",
       scenario: [
         "Your biggest customer calls with an urgent complaint",
-        "Costco reports: \"Your toilet paper feels like sandpaper\"",
+        "A major retailer reports: \"Your toilet paper feels like sandpaper\"",
         "You're the sole supplier - this could cost millions in lost business",
         "The commercial team is demanding immediate action"
       ],
@@ -222,7 +222,7 @@ const screens = [
         "Labor shortages limit operational capacity"
       ],
       gpExample: {
-        title: "The Georgia Pacific Case",
+        title: "The Case Study",
         point: "Lack of Quality Control Systems",
         explanation: "No one was reviewing the supplier's certificate of analysis - this was the root trigger that started the cascade"
       },
@@ -247,7 +247,7 @@ const screens = [
         "Poor data systems hinder decision-making"
       ],
       gpExample: {
-        title: "The Georgia Pacific Case",
+        title: "The Case Study",
         point: "Process Knowledge Gaps",
         explanation: "Teams didn't understand how input material changes affect 'product by process' manufacturing"
       },
@@ -272,7 +272,7 @@ const screens = [
         "Most visible symptom but treating it here wastes resources"
       ],
       gpExample: {
-        title: "The Georgia Pacific Case",
+        title: "The Case Study",
         point: "Quality Control Failures",
         explanation: "The 'sandpaper toilet paper' was the visible symptom - treating this directly cost $10M without addressing root causes"
       },
@@ -297,7 +297,7 @@ const screens = [
         "Strategic automation amplifies human effectiveness"
       ],
       gpExample: {
-        title: "The Georgia Pacific Case",
+        title: "The Case Study",
         point: "Cross-functional Quality Control System",
         explanation: "A $100K investment in proper quality control would have prevented the $10M capital misinvestment - a 1:100 ROI"
       },
@@ -322,7 +322,7 @@ const screens = [
         "Lost innovation capacity and competitiveness"
       ],
       gpExample: {
-        title: "The Georgia Pacific Case",
+        title: "The Case Study",
         point: "Capital Misinvestment",
         explanation: "The $10M spent on unnecessary equipment diverted resources from strategic initiatives, creating long-term competitive disadvantage"
       },
@@ -786,7 +786,7 @@ function App() {
             >
               <div className="flex items-center gap-2 mb-4">
                 <Target className="w-8 h-8 text-green-600" />
-                <h3 className="text-xl font-bold text-green-900">Real Example: The Georgia Pacific Case</h3>
+                <h3 className="text-xl font-bold text-green-900">Real Example: The Case Study</h3>
               </div>
 
               <div className="bg-white rounded-lg p-4 mb-3">

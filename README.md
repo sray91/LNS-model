@@ -4,13 +4,13 @@ An interactive web application that teaches manufacturing productivity framework
 
 ## What This Is
 
-This is a story-driven, interactive journey that transforms a complex decision framework into an engaging learning experience. Users follow the "$10 million toilet paper lesson" from Georgia Pacific to understand how to diagnose and prevent productivity decline.
+This is a story-driven, interactive journey that transforms a complex decision framework into an engaging learning experience. Users follow the "$10 million toilet paper lesson" from a major manufacturer to understand how to diagnose and prevent productivity decline.
 
 ## Features
 
 - 10 interactive screens with smooth animations
 - Progressive disclosure of framework complexity
-- Real case study: Costco toilet paper quality issue
+- Real case study: Major retailer toilet paper quality issue
 - Interactive self-assessment tool
 - Mobile-responsive design
 - Professional, modern interface
@@ -48,7 +48,7 @@ Output in `dist/` folder
 
 ## License
 
-Proprietary - Created for COO Council / Georgia Pacific
+Proprietary - Created for COO Council
 
 ## Support
 
