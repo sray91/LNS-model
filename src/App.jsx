@@ -338,7 +338,7 @@ const screens = [
     content: {
       headline: "What Really Happened",
       story: [
-        "Your fiber supplier (SCA) changed their production process",
+        "Your fiber supplier changed their production process",
         "The fiber still met specifications - but the qualities were different",
         "Paper machines are 'product by process' - small input changes create output issues",
         "No one in your organization was monitoring incoming material certificates",
@@ -1263,7 +1263,7 @@ function App() {
       {/* Header with logo */}
       <div className="fixed top-0 left-0 right-0 bg-white border-b border-border z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-center">
-          <img src={lnsLogo} alt="LNS Research" className="h-8" />
+          <img src={lnsLogo} alt="LNS Research" className="h-12" />
         </div>
         {/* Progress bar */}
         <div className="h-2 bg-slate-200">
