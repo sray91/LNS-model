@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button.jsx'
 import { ChevronRight, ChevronLeft, AlertCircle, CheckCircle, TrendingDown, DollarSign, Search, Target, Layers, Network, ArrowDownUp, Lightbulb } from 'lucide-react'
@@ -55,7 +56,7 @@ const screens = [
       headline: "Mike's Coaching Question",
       quote: "How do you think about that decision?",
       subtext: "Was this really the right investment?",
-      reflection: "You fixed a problem... but did you fix the real problem?",
+      reflection: "You fixed a problem... but did you fix the problem?",
       icon: Search,
       color: "text-blue-600"
     }
@@ -102,16 +103,16 @@ const screens = [
           color: "bg-purple-500",
           textColor: "text-purple-600",
           role: "Socioeconomic Outcomes",
-          examples: ["GDP loss", "Offshoring", "Wage stagnation", "Lost innovation"],
-          function: "Visible consequences that often feed back to trigger layer"
+          examples: ["Reduced factory throughput", "Supply chain disruptions", "Quality control failures", "Lost innovation"],
+          function: "Visible consequences that often feed back to the trigger layer"
         },
         {
           name: "Mitigants",
           color: "bg-teal-500",
           textColor: "text-teal-600",
           role: "Leverage Points",
-          examples: ["Workforce upskilling", "Predictive maintenance", "Lean systems", "Automation"],
-          function: "Interventions that break negative loops or create positive ones"
+          examples: ["Robust process simplification", "Strategic capital allocation", "Holistic knowledge transfer", "Enhanced causal AI system"],
+          function: "Interventions that break negative loops or create positive reinforcing cycles"
         },
         {
           name: "Core Failure Point",
@@ -126,7 +127,7 @@ const screens = [
           color: "bg-red-500",
           textColor: "text-red-600",
           role: "Organizational/Process Failures",
-          examples: ["Skill gaps", "Siloed departments", "Outdated equipment", "Poor data systems"],
+          examples: ["Excessive approval layers", "Misaligned financial incentives", "Operational inefficiencies", "Talent draining"],
           function: "Strategic weaknesses turn into day-to-day bottlenecks"
         },
         {
@@ -134,7 +135,7 @@ const screens = [
           color: "bg-blue-500",
           textColor: "text-blue-600",
           role: "External/Systemic Drivers",
-          examples: ["Global competition", "Regulatory pressures", "Energy costs", "Labor shortages"],
+          examples: ["Decision latency", "Lean process standardization", "Inadequate data integration", "Adaptive operational architecture"],
           function: "Root causes and environmental pressures that initiate problems"
         }
       ],
@@ -854,7 +855,7 @@ function App() {
           </motion.div>
         )
 
-      case 'framework-detail':
+      case 'framework-detail': {
         // Select the appropriate screenshot based on the section
         const getScreenshotImage = () => {
           switch (screen.content.section) {
@@ -900,6 +901,7 @@ function App() {
             </AnimatePresence>
           </motion.div>
         )
+      }
 
       case 'causal-section':
         return (
