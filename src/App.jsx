@@ -55,7 +55,7 @@ const screens = [
       headline: "Mike's Coaching Question",
       quote: "How do you think about that decision?",
       subtext: "Was this really the right investment?",
-      reflection: "You fixed the symptom... but did you solve the problem?",
+      reflection: "You fixed a problem... but did you fix the real problem?",
       icon: Search,
       color: "text-blue-600"
     }
