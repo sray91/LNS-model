@@ -20,7 +20,7 @@ const screens = [
     content: {
       headline: "Imagine you're a division leader at a major manufacturer of consumer goods...",
       scenario: [
-        "Your biggest customer calls with an urgent complaint",
+        "One of your biggest customers calls with an urgent complaint",
         "A major retailer reports: \"Your toilet paper feels like sandpaper\"",
         "You're the sole supplier - this could cost millions in lost business",
         "The commercial team is demanding immediate action"
@@ -1222,7 +1222,7 @@ function App() {
       {/* Header with logo */}
       <div className="fixed top-0 left-0 right-0 bg-white border-b border-border z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-center">
-          <img src={lnsLogo} alt="LNS Research" className="h-12" />
+          <img src={lnsLogo} alt="LNS Research" className="h-20" />
         </div>
         {/* Progress bar */}
         <div className="h-2 bg-slate-200">
