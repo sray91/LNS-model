@@ -143,36 +143,6 @@ const screens = [
     }
   },
   {
-    id: 4.7,
-    title: "Feedback Loops",
-    type: "feedback-loops",
-    content: {
-      headline: "Understanding Vicious vs. Virtuous Cycles",
-      description: "Systems don't just flow downward—they create self-reinforcing loops",
-      loops: [
-        {
-          type: "Vicious (Reinforcing Decline)",
-          color: "text-red-600",
-          bgColor: "bg-red-50",
-          borderColor: "border-red-600",
-          example: "Skill shortages → reduced productivity → cost-cutting → fewer training budgets → deeper skill shortages",
-          impact: "Each cycle makes the problem worse"
-        },
-        {
-          type: "Virtuous (Reinforcing Improvement)",
-          color: "text-blue-600",
-          bgColor: "bg-blue-50",
-          borderColor: "border-blue-600",
-          example: "Predictive maintenance → reduced downtime → freed-up capital → reinvestment in modernization → sustained productivity",
-          impact: "Each cycle makes the solution stronger"
-        }
-      ],
-      insight: "Strategic leverage lies in finding where you can reverse a vicious cycle into a virtuous one",
-      icon: ArrowDownUp,
-      color: "text-blue-600"
-    }
-  },
-  {
     id: 4.8,
     title: "Finding Leverage",
     type: "leverage-points",
@@ -193,17 +163,6 @@ const screens = [
       },
       icon: Lightbulb,
       color: "text-yellow-600"
-    }
-  },
-  {
-    id: 4.9,
-    title: "The Full Framework",
-    type: "framework-intro-full",
-    content: {
-      headline: "Now Let's See the Real System",
-      description: "Here's the actual causal map for manufacturing productivity decline",
-      framework: "The Complete Manufacturing Productivity Causal Model",
-      subtext: "Notice how complex real systems are—but now you know how to read them"
     }
   },
   {
