@@ -1236,7 +1236,7 @@ function App() {
       </div>
 
       {/* Main content */}
-      <div className="flex-1 overflow-y-auto p-8 pt-24 pb-24">
+      <div className="flex-1 overflow-y-auto p-8 pt-32 pb-24">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentScreen}
