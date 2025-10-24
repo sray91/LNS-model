@@ -37,12 +37,12 @@ const screens = [
       headline: "The Pressure Mounts",
       scenario: [
         "Commercial team: \"We need this fixed NOW\"",
-        "Engineering proposes a $10 million capital project",
+        "Engineering proposes a multiple million dollar capital project",
         "Install a new refiner to improve fiber processing",
         "Timeline: Complete in one quarter",
         "Result: Problem solved... or is it?"
       ],
-      decision: "Approve $10M Capital Investment",
+      decision: "Approve Multiple Million Dollar Capital Investment",
       icon: DollarSign,
       color: "text-orange-600"
     }
@@ -98,28 +98,12 @@ const screens = [
       description: "Every complex system can be mapped through these interconnected layers",
       tiers: [
         {
-          name: "Triggers & Controls",
-          color: "bg-blue-500",
-          textColor: "text-blue-600",
-          role: "External/Systemic Drivers",
-          examples: ["Global competition", "Regulatory pressures", "Energy costs", "Labor shortages"],
-          function: "Root causes and environmental pressures that initiate problems"
-        },
-        {
-          name: "Operational Challenges",
-          color: "bg-red-500",
-          textColor: "text-red-600",
-          role: "Organizational/Process Failures",
-          examples: ["Skill gaps", "Siloed departments", "Outdated equipment", "Poor data systems"],
-          function: "Strategic weaknesses turn into day-to-day bottlenecks"
-        },
-        {
-          name: "Core Failure Point",
-          color: "bg-purple-600",
+          name: "Resulting Challenges",
+          color: "bg-purple-500",
           textColor: "text-purple-600",
-          role: "Systemic Failure",
-          examples: ["Manufacturing Productivity Decline"],
-          function: "The aggregated effect where all problems converge"
+          role: "Socioeconomic Outcomes",
+          examples: ["GDP loss", "Offshoring", "Wage stagnation", "Lost innovation"],
+          function: "Visible consequences that often feed back to trigger layer"
         },
         {
           name: "Mitigants",
@@ -130,12 +114,28 @@ const screens = [
           function: "Interventions that break negative loops or create positive ones"
         },
         {
-          name: "Resulting Challenges",
-          color: "bg-purple-500",
+          name: "Core Failure Point",
+          color: "bg-purple-600",
           textColor: "text-purple-600",
-          role: "Socioeconomic Outcomes",
-          examples: ["GDP loss", "Offshoring", "Wage stagnation", "Lost innovation"],
-          function: "Visible consequences that often feed back to trigger layer"
+          role: "Systemic Failure",
+          examples: ["Manufacturing Productivity Decline"],
+          function: "The aggregated effect where all problems converge"
+        },
+        {
+          name: "Operational Challenges",
+          color: "bg-red-500",
+          textColor: "text-red-600",
+          role: "Organizational/Process Failures",
+          examples: ["Skill gaps", "Siloed departments", "Outdated equipment", "Poor data systems"],
+          function: "Strategic weaknesses turn into day-to-day bottlenecks"
+        },
+        {
+          name: "Triggers & Controls",
+          color: "bg-blue-500",
+          textColor: "text-blue-600",
+          role: "External/Systemic Drivers",
+          examples: ["Global competition", "Regulatory pressures", "Energy costs", "Labor shortages"],
+          function: "Root causes and environmental pressures that initiate problems"
         }
       ],
       icon: Network,
@@ -159,7 +159,7 @@ const screens = [
         intervention: "Cross-functional Quality Control System",
         upstreamImpacts: ["Prevents skill gap exploitation", "Reduces siloed decision-making"],
         downstreamImpacts: ["Avoids capital misinvestment", "Prevents quality failures", "Maintains customer trust"],
-        roiMultiplier: "1:100+ (Prevented $10M spend with $100K system)"
+        roiMultiplier: "1:100+ (Prevented multiple million dollar spend with $100K system)"
       },
       icon: Lightbulb,
       color: "text-yellow-600"
@@ -167,52 +167,52 @@ const screens = [
   },
   {
     id: 5,
-    title: "Triggers & Controls",
+    title: "Resulting Challenges",
     type: "causal-section",
     content: {
-      headline: "Layer 1: Triggers & Controls",
-      tier: "Triggers & Controls",
-      description: "External and systemic drivers that initiate problems in the manufacturing system",
-      screenshot: triggersImage,
+      headline: "Layer 1: Resulting Challenges",
+      tier: "Resulting Challenges",
+      description: "Socioeconomic outcomes that create feedback loops back to the trigger layer",
+      screenshot: challengesImage,
       keyPoints: [
-        "Global competition drives pressure to cut costs",
-        "Energy price volatility affects production costs",
-        "Regulatory pressures demand compliance investments",
-        "Labor shortages limit operational capacity"
+        "GDP loss from reduced manufacturing output",
+        "Offshoring as companies seek lower costs",
+        "Wage stagnation due to reduced productivity",
+        "Lost innovation capacity and competitiveness"
       ],
       gpExample: {
         title: "The Case Study",
-        point: "Lack of Quality Control Systems",
-        explanation: "No one was reviewing the supplier's certificate of analysis - this was the root trigger that started the cascade"
+        point: "Capital Misinvestment",
+        explanation: "The multiple million dollars spent on unnecessary equipment diverted resources from strategic initiatives, creating long-term competitive disadvantage"
       },
-      color: "text-blue-600",
-      bgColor: "bg-blue-50",
-      borderColor: "border-blue-600"
+      color: "text-purple-600",
+      bgColor: "bg-purple-50",
+      borderColor: "border-purple-600"
     }
   },
   {
     id: 6,
-    title: "Operational Challenges",
+    title: "Mitigants",
     type: "causal-section",
     content: {
-      headline: "Layer 2: Operational Challenges",
-      tier: "Operational Challenges",
-      description: "Organizational and process failures that emerge from strategic weaknesses",
-      screenshot: operationalChallengesImage,
+      headline: "Layer 2: Mitigants (Leverage Points)",
+      tier: "Mitigants",
+      description: "Strategic interventions that break negative loops and create positive reinforcing cycles",
+      screenshot: mitigantsImage,
       keyPoints: [
-        "Skill gaps limit workforce effectiveness",
-        "Siloed departments prevent collaboration",
-        "Outdated equipment reduces efficiency",
-        "Poor data systems hinder decision-making"
+        "Workforce upskilling builds organizational capability",
+        "Predictive maintenance prevents cascading failures",
+        "Lean systems reduce waste and improve flow",
+        "Strategic automation amplifies human effectiveness"
       ],
       gpExample: {
         title: "The Case Study",
-        point: "Process Knowledge Gaps",
-        explanation: "Teams didn't understand how input material changes affect 'product by process' manufacturing"
+        point: "Cross-functional Quality Control System",
+        explanation: "A $100K investment in proper quality control would have prevented the multiple million dollar capital misinvestment - a 1:100 ROI"
       },
-      color: "text-red-600",
-      bgColor: "bg-red-50",
-      borderColor: "border-red-600"
+      color: "text-teal-600",
+      bgColor: "bg-teal-50",
+      borderColor: "border-teal-600"
     }
   },
   {
@@ -233,7 +233,7 @@ const screens = [
       gpExample: {
         title: "The Case Study",
         point: "Quality Control Failures",
-        explanation: "The 'sandpaper toilet paper' was the visible symptom - treating this directly cost $10M without addressing root causes"
+        explanation: "The 'sandpaper toilet paper' was the visible symptom - treating this directly cost multiple million dollars without addressing root causes"
       },
       color: "text-purple-600",
       bgColor: "bg-purple-50",
@@ -242,52 +242,52 @@ const screens = [
   },
   {
     id: 7.5,
-    title: "Mitigants",
+    title: "Operational Challenges",
     type: "causal-section",
     content: {
-      headline: "Layer 4: Mitigants (Leverage Points)",
-      tier: "Mitigants",
-      description: "Strategic interventions that break negative loops and create positive reinforcing cycles",
-      screenshot: mitigantsImage,
+      headline: "Layer 4: Operational Challenges",
+      tier: "Operational Challenges",
+      description: "Organizational and process failures that emerge from strategic weaknesses",
+      screenshot: operationalChallengesImage,
       keyPoints: [
-        "Workforce upskilling builds organizational capability",
-        "Predictive maintenance prevents cascading failures",
-        "Lean systems reduce waste and improve flow",
-        "Strategic automation amplifies human effectiveness"
+        "Skill gaps limit workforce effectiveness",
+        "Siloed departments prevent collaboration",
+        "Outdated equipment reduces efficiency",
+        "Poor data systems hinder decision-making"
       ],
       gpExample: {
         title: "The Case Study",
-        point: "Cross-functional Quality Control System",
-        explanation: "A $100K investment in proper quality control would have prevented the $10M capital misinvestment - a 1:100 ROI"
+        point: "Process Knowledge Gaps",
+        explanation: "Teams didn't understand how input material changes affect 'product by process' manufacturing"
       },
-      color: "text-teal-600",
-      bgColor: "bg-teal-50",
-      borderColor: "border-teal-600"
+      color: "text-red-600",
+      bgColor: "bg-red-50",
+      borderColor: "border-red-600"
     }
   },
   {
     id: 7.6,
-    title: "Resulting Challenges",
+    title: "Triggers & Controls",
     type: "causal-section",
     content: {
-      headline: "Layer 5: Resulting Challenges",
-      tier: "Resulting Challenges",
-      description: "Socioeconomic outcomes that create feedback loops back to the trigger layer",
-      screenshot: challengesImage,
+      headline: "Layer 5: Triggers & Controls",
+      tier: "Triggers & Controls",
+      description: "External and systemic drivers that initiate problems in the manufacturing system",
+      screenshot: triggersImage,
       keyPoints: [
-        "GDP loss from reduced manufacturing output",
-        "Offshoring as companies seek lower costs",
-        "Wage stagnation due to reduced productivity",
-        "Lost innovation capacity and competitiveness"
+        "Global competition drives pressure to cut costs",
+        "Energy price volatility affects production costs",
+        "Regulatory pressures demand compliance investments",
+        "Labor shortages limit operational capacity"
       ],
       gpExample: {
         title: "The Case Study",
-        point: "Capital Misinvestment",
-        explanation: "The $10M spent on unnecessary equipment diverted resources from strategic initiatives, creating long-term competitive disadvantage"
+        point: "Lack of Quality Control Systems",
+        explanation: "No one was reviewing the supplier's certificate of analysis - this was the root trigger that started the cascade"
       },
-      color: "text-purple-600",
-      bgColor: "bg-purple-50",
-      borderColor: "border-purple-600"
+      color: "text-blue-600",
+      bgColor: "bg-blue-50",
+      borderColor: "border-blue-600"
     }
   },
   {
@@ -301,9 +301,9 @@ const screens = [
         "The fiber still met specifications - but the qualities were different",
         "Paper machines are 'product by process' - small input changes create output issues",
         "No one in your organization was monitoring incoming material certificates",
-        "The gap in your quality control process cost you $10 million"
+        "The gap in your quality control process cost you multiple million dollars"
       ],
-      insight: "\"We just spent $10 million because we didn't have robustness in our quality control process\"",
+      insight: "\"We just spent multiple million dollars because we didn't have robustness in our quality control process\"",
       icon: Target,
       color: "text-green-600"
     }
@@ -357,22 +357,10 @@ const screens = [
         headers: ["Layer", "Role", "Example Focus"],
         rows: [
           {
-            layer: "Triggers & Controls",
-            color: "bg-blue-100 text-blue-900",
-            role: "External/Systemic Drivers",
-            focus: "Global competition, energy costs"
-          },
-          {
-            layer: "Operational Challenges",
-            color: "bg-red-100 text-red-900",
-            role: "Organizational/Process Failures",
-            focus: "Skill gaps, silos, outdated equipment"
-          },
-          {
-            layer: "Core",
+            layer: "Results",
             color: "bg-purple-100 text-purple-900",
-            role: "Central Decline Node",
-            focus: "Manufacturing productivity drop"
+            role: "Socioeconomic Outcomes",
+            focus: "GDP loss, offshoring, wage stagnation"
           },
           {
             layer: "Mitigants",
@@ -381,10 +369,22 @@ const screens = [
             focus: "Upskilling, automation, predictive maintenance"
           },
           {
-            layer: "Results",
+            layer: "Core",
             color: "bg-purple-100 text-purple-900",
-            role: "Socioeconomic Outcomes",
-            focus: "GDP loss, offshoring, wage stagnation"
+            role: "Central Decline Node",
+            focus: "Manufacturing productivity drop"
+          },
+          {
+            layer: "Operational Challenges",
+            color: "bg-red-100 text-red-900",
+            role: "Organizational/Process Failures",
+            focus: "Skill gaps, silos, outdated equipment"
+          },
+          {
+            layer: "Triggers & Controls",
+            color: "bg-blue-100 text-blue-900",
+            role: "External/Systemic Drivers",
+            focus: "Global competition, energy costs"
           }
         ]
       }

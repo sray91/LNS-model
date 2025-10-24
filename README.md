@@ -1,10 +1,10 @@
-# The $10 Million Lesson - Interactive Framework Experience
+# The Multiple Million Dollar Lesson - Interactive Framework Experience
 
 An interactive web application that teaches manufacturing productivity framework through a compelling real-world case study.
 
 ## What This Is
 
-This is a story-driven, interactive journey that transforms a complex decision framework into an engaging learning experience. Users follow the "$10 million toilet paper lesson" from a major manufacturer to understand how to diagnose and prevent productivity decline.
+This is a story-driven, interactive journey that transforms a complex decision framework into an engaging learning experience. Users follow the "multiple million dollar toilet paper lesson" from a major manufacturer to understand how to diagnose and prevent productivity decline.
 
 ## Features
 

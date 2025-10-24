@@ -1,4 +1,4 @@
-# Deployment Instructions - The $10 Million Lesson
+# Deployment Instructions - The Multiple Million Dollar Lesson
 
 This package contains everything you need to deploy the interactive framework experience to GitHub Pages or Vercel.
 
