@@ -4,8 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 import { createRequire } from 'module';
 
-var require = createRequire(import.meta.url);
-var module = { exports: {} };
+const require = createRequire(import.meta.url);
 
 // https://vite.dev/config/
 export default defineConfig({
